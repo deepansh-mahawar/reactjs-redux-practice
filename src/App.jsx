@@ -1,4 +1,5 @@
 import "./App.css";
+import Cart from "./features/Cart";
 import { Counter } from "./features/Counter";
 import { FoodList } from "./features/FoodList";
 import { LightBulb } from "./features/LightBulb";
@@ -10,6 +11,7 @@ function App() {
       {/* <Counter /> */}
       {/* <LightBulb/> */}
       {/* <FoodList/> */}
+      <Cart/>
     </div>
   );
 }
