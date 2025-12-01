@@ -1,9 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { useDispatch, useSelector } from "react-redux";
 import counterReducer from "./slices/counterSlice";
 import lightReducer from "./slices/lightSlice";
 import foodReducer from "./slices/foodSlice";
 import cartReducer from "./slices/cartSlice";
-import { useDispatch, useSelector } from "react-redux";
+import postReducer from "./slices/postSlice";
 
 export const store = configureStore({
   reducer: {
@@ -11,6 +12,7 @@ export const store = configureStore({
     light: lightReducer,
     food: foodReducer,
     cart: cartReducer,
+    posts: postReducer,
   },
 });
 
