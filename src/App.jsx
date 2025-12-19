@@ -6,6 +6,7 @@ import { FoodList } from "./features/FoodList";
 import { LightBulb } from "./features/LightBulb";
 import { UserList } from "./features/userList";
 import UserData from "./features/UserData";
+import { ImageSlider } from "./components/ImageSlider";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <FoodList/> */}
       {/* <Cart/> */}
       {/* <UserList /> */}
-      <UserData />
+      {/* <UserData /> */}
+      <ImageSlider/>
     </div>
   );
 }
